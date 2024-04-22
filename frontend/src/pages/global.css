@@ -1,0 +1,15 @@
+.dropdown {
+    position: absolute;
+    top: calc(100% + 10px); /* Adjust as needed */
+    left: 0;
+    width: 200px; /* Adjust as needed */
+    background-color: white;
+    color:yellow;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translateY(-10px);
+    opacity: 0;
+    visibility: hidden;
+  }
